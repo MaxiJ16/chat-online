@@ -2,9 +2,10 @@
   padding: 30px;
   display: grid;
   gap: 20px;
+  height: 80vh;
 }
 
-@media(min-width: 769px){
+@media (min-width: 769px) {
   .container-page-msg {
     max-width: 700px;
     margin: 0 auto;
@@ -16,9 +17,9 @@
   overflow-y: scroll;
 }
 
-@media(min-width: 769px){
+@media (min-width: 769px) {
   .messages {
-    max-height: 600px;
+    max-height: 400px;
   }
 }
 
@@ -39,9 +40,9 @@
   color: #d8d8d8;
 }
 
-.your-message{
+.your-message {
   padding: 15px;
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
   border-radius: 8px;
   /* para que el contenedor del mensaje se adapte dependiendo el texto usamos min-widht y display:inline-block */
   min-width: 10px;
@@ -53,7 +54,7 @@
 
 .my-message {
   padding: 15px;
-  background-color: #B9E97C;
+  background-color: #b9e97c;
   border-radius: 8px;
   /* para que el contenedor del mensaje se adapte dependiendo el texto usamos min-widht y display:inline-block */
   min-width: 10px;

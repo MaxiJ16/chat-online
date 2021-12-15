@@ -18,15 +18,15 @@ class TextComponent extends HTMLElement {
       } 
 
       .title {
-        font-size: 52px;
+        font-size: 20px;
         font-weight: 700;
       }
       .subtitle {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 500;
       }
       .body {
-        font-size: 18px;
+        font-size: 16px;
       }
     `;
 
