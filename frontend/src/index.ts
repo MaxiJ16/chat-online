@@ -15,9 +15,6 @@ import { state } from "./state";
 // le decimos init() para que se inicie el state
 
 (function () {
-  fetch("/env")
-    .then((res) => res.json())
-    .then((data) => console.log(data));
   // hacemos el init para rehidratarse del localStorage para saltearme la primera página
   state.init();
 })();
