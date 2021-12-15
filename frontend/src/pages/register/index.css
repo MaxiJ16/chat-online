@@ -1,0 +1,21 @@
+.section {
+  padding: 30px;
+  display: grid;
+  gap: 25px;
+}
+
+@media(min-width: 769px){
+  .section {
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 60px;
+  }
+}
+
+.messageFromRegister {
+  font-size: 1.5rem;
+  color: rgb(68, 202, 68);
+  text-align: center;
+  width: 100%;
+  
+}

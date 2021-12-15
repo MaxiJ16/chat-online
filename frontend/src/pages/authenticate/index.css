@@ -1,0 +1,17 @@
+.section {
+  padding: 30px;
+  display: grid;
+  gap: 25px;
+}
+
+@media(min-width: 769px){
+  .section {
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 60px;
+  }
+}
+
+.inputRoomExistente {
+  display: none;
+}

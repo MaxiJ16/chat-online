@@ -1,0 +1,64 @@
+.container-page-msg {
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+}
+
+@media(min-width: 769px){
+  .container-page-msg {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+.messages {
+  max-height: 320px;
+  overflow-y: scroll;
+}
+
+@media(min-width: 769px){
+  .messages {
+    max-height: 600px;
+  }
+}
+
+.you {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.my {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.your-from {
+  margin-bottom: 5px;
+  color: #d8d8d8;
+}
+
+.your-message{
+  padding: 15px;
+  background-color: #D8D8D8;
+  border-radius: 8px;
+  /* para que el contenedor del mensaje se adapte dependiendo el texto usamos min-widht y display:inline-block */
+  min-width: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  /* para que los mensajes largos del chat no se salgan del contenedor */
+  word-break: break-word;
+}
+
+.my-message {
+  padding: 15px;
+  background-color: #B9E97C;
+  border-radius: 8px;
+  /* para que el contenedor del mensaje se adapte dependiendo el texto usamos min-widht y display:inline-block */
+  min-width: 10px;
+  display: inline-block;
+  margin-bottom: 5px;
+  /* para que los mensajes largos del chat no se salgan del contenedor */
+  word-break: break-word;
+}
