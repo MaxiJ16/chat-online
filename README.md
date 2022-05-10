@@ -1,8 +1,8 @@
 # WEB APP CHAT
 
-**LINK -> https://heroku-mod6-chat.herokuapp.com/
+**LINK -> https://heroku-mod6-chat.herokuapp.com/ **
 
-**POSTMAN COLLECTION -> https://documenter.getpostman.com/view/15124189/UyxeqUjq
+**POSTMAN COLLECTION -> https://documenter.getpostman.com/view/15124189/UyxeqUjq **
 
 Permite registrar y autenticar a usuarios por su nombre y su email.
 Una vez ingresado, se pueden crear salas de chat e intercambiar mensajes entre los diferentes participantes.
