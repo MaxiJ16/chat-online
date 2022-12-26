@@ -1,6 +1,6 @@
 # WEB APP CHAT
 
-**LINK** -> https://heroku-mod6-chat.herokuapp.com/ 
+**LINK** -> https://chat-xc4h.onrender.com/
 
 **POSTMAN COLLECTION** -> https://documenter.getpostman.com/view/15124189/UyxeqUjq 
 
