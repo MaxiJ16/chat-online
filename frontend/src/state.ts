@@ -2,7 +2,7 @@
 import { rtdb } from "./rtdb";
 
 // Guardamos la dirección de nuestra API
-const API_BASE_URL = "https://heroku-mod6-chat.herokuapp.com";
+const API_BASE_URL = "https://chat-xc4h.onrender.com";
 
 //usamos la función map de lodash que hace lo mismo que el map pero cuando le pasas un objeto de objetos lo trata como si fuera un array
 import map from "lodash/map";
